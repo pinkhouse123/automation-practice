@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <test name="Parameter Test">
+        <parameter name="username" value="Prime"></parameter>
+        <parameter name="password" value="Prime1"></parameter>
+        <classes>
+            <class name="com.automation.testsuite.CreateAccountPageTest"/>
+
+        </classes>
+    </test>
+</suite>
